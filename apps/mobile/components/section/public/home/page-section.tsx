@@ -99,47 +99,6 @@ export default function SectionHomePage() {
             </CardContent>
           </Card>
         </View>
-
-        <View className="space-y-4">
-          <Text className="text-2xl font-bold mb-2">Built With</Text>
-          <Card>
-            <CardContent className="pt-6">
-              <View className="flex-row flex-wrap gap-2">
-                {[
-                  "Expo Router",
-                  "React Native",
-                  "NativeWind",
-                  "TypeScript",
-                  "Redux Toolkit",
-                  "React Query",
-                  "Lucide Icons",
-                  "AsyncStorage",
-                ].map((tech) => (
-                  <View
-                    key={tech}
-                    className="px-4 py-2 rounded-full bg-primary/10"
-                  >
-                    <Text className="text-sm font-medium">{tech}</Text>
-                  </View>
-                ))}
-              </View>
-            </CardContent>
-          </Card>
-        </View>
-
-        <Card className="bg-gradient-to-r from-primary/10 to-accent/30 dark:from-primary/40 dark:to-accent/40 border-0">
-          <CardContent className="pt-6">
-            <Text className="text-xl font-bold mb-2 text-center">
-              Ready to get started?
-            </Text>
-            <Text className="text-center text-muted-foreground/70 mb-4">
-              Sign in to access all features and start building
-            </Text>
-            <Button variant="secondary" className="w-full">
-              <Text className="font-semibold text-base">Sign In Now</Text>
-            </Button>
-          </CardContent>
-        </Card>
       </View>
     </ScrollView>
   );

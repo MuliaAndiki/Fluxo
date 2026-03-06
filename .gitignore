@@ -4,3 +4,8 @@
 /apps/web/.env
 /apps/backend/.env
 /apps/backend/node_modules
+.turbo
+/apps/web/.next
+/apps/web/.turbo
+/apps/backend/.turbo
+/apps/mobile/.turbo
